@@ -6,7 +6,7 @@ require("dotenv").config();
 
 let options = {
   
-  headless: false,
+  headless: true,
 }; 
 
 async function searchGoogleMapsByLocation(Doctor,location) {
